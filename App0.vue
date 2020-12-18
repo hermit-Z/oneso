@@ -1,30 +1,10 @@
 <template>
-<v-app>
-
- 
-<barnav/>
-  <!-- Sizes your content based upon application components -->
-  <v-main>
-
-    <!-- Provides the application the proper gutter -->
-    <v-container fluid>
-
-      <!-- If using vue-router 
-      <router-view></router-view>
-      -->
-    </v-container>
-  </v-main>
-  <burger/>
-  <v-footer app>
-    <!-- -->
-  </v-footer>
-</v-app>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld';
 //import FlagIcon from 'vue-flag-icon'
-/*import asuprime from './components/asuprime';
+/* import asuprime from './components/asuprime';
 import Loginpage from './components/login'
 import slidegroupeservice from './components/slidegroupservice'
 import semplefooter from './components/semplefooter'
@@ -32,8 +12,7 @@ import bchat from './components/bchar'
 //import langselector from './components/langselector'
 import langselector1 from './components/langselector1'
 import SimpleCarousel from './components/SimpleCarousel'*/
-import barnav from './components/barnav'
-import burger from './components/burger'
+
 //import { mapState } from 'vuex'
 //import VueFlags from "node_modules/@growthbunker/vueflags"
 //Vue.use(FlagIcon);
@@ -41,8 +20,6 @@ export default {
   name: 'App',
 
   components: {
-               barnav,
-               burger,
  //   HelloWorld,
  /*     asuprime,
       Loginpage,
